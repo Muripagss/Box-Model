@@ -4,49 +4,43 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    border: 2px solid black; 
 }
-
 header, nav, footer {
     flex: 0 0 auto;
+    border: 1px solid black;
     padding: 10px;
-    border-bottom: 2px solid black; 
 }
-
 section {
     flex: 1;
     display: flex;
     align-items: stretch;
+    border: 1px solid black;
 }
-
 .column {
     flex: 1;
     padding: 10px;
-    border: 2px solid black; 
+    border: 1px solid black;
 }
-
 .column1 {
-    border: 2px solid black;
+    border: 1px solid black;
 }
-
 .column2 {
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
 }
-
 .upper-content {
     flex: 1;
     display: flex;
     align-items: stretch;
+    border: 1px solid black;
 }
-
 .sub-column {
     flex: 1;
     padding: 5px;
-    border: 2px solid black; 
+    border: 1px solid black;
 }
-
 .lower-content {
     padding: 5px;
-    border: 2px solid black; 
+    border: 1px solid black;
 }
